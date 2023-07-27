@@ -1,0 +1,17 @@
+      [16,21,11,8,12,22]  Merge Sort'a göre aşamaları;
+
+[16,21,11]               [8,12,22]
+
+[16,21] [11]             [8,12] [22]
+
+[16] [21] [11]           [8] [12] [22]
+
+[16,21] [11]             [8,12] [22]  ----(burada ikili olanlarda küçük sayıları başa atıyor.)
+
+[11,16,21]               [8,12,22]    ----[küçükten büyüğe hızlıca sıralamaktadır.]
+
+        [8,11,12,16,21,22] son halidir.
+
+
+
+Big-O gösterimi O(nlogn)
